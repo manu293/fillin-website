@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bannerImage {
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  .bannerImage {
+    width: 300px;
+  }
+
+  .productQualityImage > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .productImageContainer > img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .whyFillin > img {
+    width: 100px;
+    height: 100px;
+  }
+}
